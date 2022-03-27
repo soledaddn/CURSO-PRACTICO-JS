@@ -101,14 +101,14 @@ function calcularAreaCuadrado() {
 
 function calcularPerimetroTriangulo() {
     const Input1 = document.getElementById("InputTriangulo3");
-    const value1 = Input1.value;
+    const value1 = Number(Input1.value);
 
     const Input2 = document.getElementById("InputTriangulo2");
-    const value2 = Input2.value;
+    const value2 = Number(Input2.value);
 
 
     const Input3 = document.getElementById("InputTriangulo1");
-    const value3 = Input3.value;
+    const value3 = Number(Input3.value);
   
    
 
